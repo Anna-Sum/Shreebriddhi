@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gandaki Community Bank</title>
+  <meta name="description" content="SHREE BRIDHI SAVING & CREDIT CO-OPERATIVE LTD." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #0b6b3a;   /* main green */
+      --secondary: #0f5132; /* darker green */
+      --accent: #ff9800;    /* orange accent */
+      --light: #f9f9f9;
+      --dark: #1f2933;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      padding: 1rem 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 4rem 0;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(135deg, var(--secondary), var(--primary));
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    /* Sections */
+    section {
+      padding: 4rem 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-title h3 {
+      font-size: 2rem;
+      color: var(--primary);
+    }
+
+    /* Services */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .service-card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .service-card h4 {
+      margin-bottom: 1rem;
+      color: var(--secondary);
+    }
+
+    /* About */
+    .about {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    /* Contact */
+    .contact {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .contact-card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    /* Footer */
+    footer {
+      background: var(--dark);
+      color: #fff;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <h1>SHREE BRIDHI SAVING & CREDIT CO-OPERATIVE LTD.</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h2>Your Trusted Local Banking Partner</h2>
+      <p>Secure, reliable, and community-focused banking solutions designed to support individuals, families, and local businesses.</p>
+      <a href="#services" class="btn">Explore Our Services</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="section-title">
+        <h3>Our Services</h3>
+      </div>
+      <div class="services">
+        <div class="service-card">
+          <h4>Savings Accounts</h4>
+          <p>Flexible savings accounts with competitive interest rates to help your money grow securely.</p>
+        </div>
+        <div class="service-card">
+          <h4>Loans & Credit</h4>
+          <p>Personal, business, and agricultural loans tailored for local needs.</p>
+        </div>
+        <div class="service-card">
+          <h4>Digital Banking</h4>
+          <p>Easy access to your accounts through secure online and mobile banking services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="section-title">
+        <h3>About Us</h3>
+      </div>
+      <div class="about">
+        <p>Gandaki Community Bank is a locally operated bank committed to empowering communities through accessible financial services. Our mission is to support local growth, promote financial inclusion, and build long-term trust with our customers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h3>Contact Us</h3>
+      </div>
+      <div class="contact">
+        <div class="contact-card">
+          <h4>Head Office</h4>
+          <p>Pokhara, Gandaki Province, Nepal</p>
+          <p>Phone: +977-61-000000</p>
+          <p>Email: info@gandaki-bank.com</p>
+        </div>
+        <div class="contact-card">
+          <h4>Banking Hours</h4>
+          <p>Sunday – Friday</p>
+          <p>10:00 AM – 5:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Gandaki Community Bank. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
